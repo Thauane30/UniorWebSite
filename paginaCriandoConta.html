@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br" style="height: auto;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniOr - Criando conta</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="css/paginaConta.css">
+</head>
+
+<body style="height: auto;">
+
+
+    <!-- Botão Voltar para Página Inicial -->
+    <div class="level container-seta">
+        <div class="level-left ml-4 mt-3">
+            <!--Colocar aqui o link-->
+            <a href="paginaEntrandoConta.html" class="button is-small is-primary is-outlined"><svg version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 15.8 15.8" xml:space="preserve" height="2em" class="mr-1">
+                    <path style="fill: rgb(0, 0, 0)"
+                        d="M15.8,5.9v4h-9l3.5,3.5l-2.4,2.4L0,7.9L7.9,0l2.4,2.4L6.8,5.9H15.8z" />
+                </svg>Voltar</a>
+        </div>
+    </div>
+
+
+    <!--Container Pai dos Formulários-->
+    <div class="container has-background-white-bis my-3 espaco-container">
+
+
+        <!-- FORMULÁRIO 2 - CRIANDO CONTA -->
+        <div class="container container-formulario">
+            <h1 class="title is-1 mt-3">Criando conta</h1>
+
+            <form action="" id="formu" novalidate>
+                <!-- Inputs do formulário -->
+                <div class="field">
+                    <label class="label">Nome</label>
+                    <div class="control">
+                        <input class="input" type="text" id="nome" placeholder="E.x Alex Smith">
+                    </div>
+                    <p id="rNome"></p>
+                </div>
+
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" id="email" placeholder="E.x alexsmith@gmail.com">
+                    </div>
+                    <p id="rEmail"></p>
+                </div>
+
+                <div class="field">
+                    <label class="label">Data de Nascimento</label>
+                    <div class="control">
+                        <input class="input" type="date" id="dataDeNascimento" placeholder="00/00/0000">
+                    </div>
+                    <p id="rNascimento"></p>
+                </div>
+
+                <div class="field">
+                    <label class="label">Insira uma senha</label>
+                    <div class="control">
+                        <input class="input password" type="password" id="senha" placeholder="E.x M24@Oosfg">
+                    </div>
+                    <p id="rSenha"></p>
+                </div>
+
+                <div class="field">
+                    <label class="label">Confirme a senha</label>
+                    <div class="control">
+                        <input class="input password" type="password" id="confirmeSenha" placeholder="E.x M24@Oosfg">
+                    </div>
+                    <p id="rConfirmeSenha"></p>
+                </div>
+
+                <!-- Aceito os termos -->
+                <label class="checkbox">
+                    <input type="checkbox">
+                    <!--Link para aceitar os termos-->
+                    Eu concordo com os <a href="#">termos e condições.</a>
+                </label>
+
+                <!-- Cadastar ou Cancelar -->
+                <div class="field is-grouped mt-4 mb-3">
+                    <p class="control">
+                        <button type="submit" class="button is-primary">Cadastrar</button>
+                    </p>
+                    <p class="control">
+                        <!--Colocar link para voltar uma página-->
+                        <a href="paginaEntrandoConta.html" class="button is-light">
+                            Já possuo uma conta
+                        </a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/formCriandoConta.js"></script>
+
+</body>
+
+</html>

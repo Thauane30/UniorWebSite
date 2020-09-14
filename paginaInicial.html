@@ -1,0 +1,221 @@
+<!-- 
+    Site construido para fins de estudo! 
+
+    Logotipo original criado pelos mesmos autores do site, uso somente pessoal.
+    O site em si foi contruido inteiramente em Css vanilla, sem uso de framework.
+
+    Site criado por Matheus E. França & Thauane M. M. Maran.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniOr - Página Inicial</title>
+    <!--Nesse css contém estilização do Cabeçalho e Rodapé, como tambem a Criação do grid-->
+    <link rel="stylesheet" href="css/estruturaDoSite.css">
+    <link rel="stylesheet" href="css/paginaInicial.css">
+
+    <!--Fonte Abel sem serifa-->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container-logo">
+            <img src="img/svg/LogoUniOr.svg" alt="LogoUniOr">
+        </div>
+
+        <div class="container-menu-itens">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="container-menu-icones">
+
+            <!--Colocar svg user-->
+            <div class="icone-usuario">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 20 20" xml:space="preserve">
+                    <path style="fill: rgb(255, 255, 255)" d="M10,0C4.5,0,0,4.5,0,10s4.5,10,10,10s10-4.5,10-10S15.5,0,10,0z M10,18c-1.9,0-3.6-0.6-4.9-1.7c0.4-0.9,3-1.8,4.9-1.8
+	s4.5,0.9,4.9,1.8C13.6,17.4,11.9,18,10,18z M16.4,14.8c-1.4-1.7-4.9-2.3-6.4-2.3s-4.9,0.6-6.4,2.3c-1-1.3-1.6-3-1.6-4.8
+	c0-4.4,3.6-8,8-8s8,3.6,8,8C18,11.8,17.4,13.5,16.4,14.8z M10,4C8.1,4,6.5,5.6,6.5,7.5S8.1,11,10,11s3.5-1.6,3.5-3.5S11.9,4,10,4z
+	 M10,9C9.2,9,8.5,8.3,8.5,7.5S9.2,6,10,6s1.5,0.7,1.5,1.5S10.8,9,10,9z" />
+                </svg>
+            </div>
+
+            <!--Arrumar sacola svg-->
+            <div class="icone-sacola">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 213 266" xml:space="preserve">
+                    <path style="fill: rgb(255, 255, 255)" d="M179.8,104c0-9-13.7-26.7-31.9-30.7C147.9,58,145,0,107.8,0c-37.1,0-42,58-42.7,73.3c-18.2,3.9-32,21.6-32,30.7L0,244.1
+	C0,261.5,12.6,266,34.3,266h72.2h72.2c21.7,0,34.3-4.5,34.3-21.9L179.8,104z M106.9,13.5c21.9,0,29.8,44.5,31.8,59h-32.2H75.2
+	C77.2,58,85,13.5,106.9,13.5z M152.3,234.9h-45.8H60.7c-13.7,0-21.7-3.5-21.7-16.7l21-98.7c0-7.8,11.1-24,24.9-24h21.6h21.6
+	c13.7,0,24.9,16.2,24.9,24l21,98.7C174,231.4,166,234.9,152.3,234.9z" />
+                </svg>
+                <p>0</p>
+            </div>
+        </div>
+
+
+        <!--dropdown Menu-->
+        <div class="container-dropdown">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 18 12" xml:space="preserve">
+                <path style="fill: rgb(255, 255, 255)" d="M0,0h18v2H0V0 M0,5h18v2H0V5 M0,10h18v2H0V10z" />
+            </svg>
+
+            <div class="dropdown-itens">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Loja</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </header>
+
+
+
+
+    <!-- Conteúdo -->
+    <div class="conteudo">
+
+        <div class="container-banner">
+            <img src="img/banner-pInicial.jpg" alt="Banner">
+        </div>
+
+        <!--Parte de amostras de alguns itens da loja-->
+        <div class="amostra-itens">
+
+            <div class="container-itens-amostra">
+
+                <!--Produto 1-->
+                <div class="item">
+                    <img src="img/produto01.jpg" alt="Produto01">
+
+                    <div class="container-detalhes">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 15.2 8.9" xml:space="preserve">
+                            <path style="fill: rgb(0, 0, 0)" d="M15.1,7.9l-0.8,0.8c-0.2,0.2-0.4,0.2-0.6,0L7.9,2.9c-0.2-0.2-0.4-0.2-0.6,0L1.5,8.7C1.4,8.9,1.1,8.9,1,8.7L0.1,7.9
+	C0,7.7,0,7.5,0.1,7.3l7.2-7.2C7.5,0,7.7,0,7.9,0.1l7.2,7.2C15.3,7.5,15.3,7.7,15.1,7.9z" />
+                        </svg>
+                        <p>Mais detalhes</p>
+                    </div>
+
+                    <div class="container-descricao-amostra">
+                        <h3>Blusa Jeans</h3>
+                        <hr>
+                        <p>R$ 103,64</p>
+                    </div>
+                </div>
+
+                <!--Produto 2-->
+                <div class="item">
+                    <img src="img/produto01.jpg" alt="Produto01">
+
+                    <div class="container-detalhes">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 15.2 8.9" xml:space="preserve">
+                            <path style="fill: rgb(0, 0, 0)" d="M15.1,7.9l-0.8,0.8c-0.2,0.2-0.4,0.2-0.6,0L7.9,2.9c-0.2-0.2-0.4-0.2-0.6,0L1.5,8.7C1.4,8.9,1.1,8.9,1,8.7L0.1,7.9
+	C0,7.7,0,7.5,0.1,7.3l7.2-7.2C7.5,0,7.7,0,7.9,0.1l7.2,7.2C15.3,7.5,15.3,7.7,15.1,7.9z" />
+                        </svg>
+                        <p>Mais detalhes</p>
+                    </div>
+
+                    <div class="container-descricao-amostra">
+                        <h3>Blusa Jeans</h3>
+                        <hr>
+                        <p>R$ 103,64</p>
+                    </div>
+                </div>
+
+                <!--Porduto 3-->
+                <div class="item">
+                    <img src="img/produto01.jpg" alt="Produto01">
+
+                    <div class="container-detalhes">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 15.2 8.9" xml:space="preserve">
+                            <path style="fill: rgb(0, 0, 0)" d="M15.1,7.9l-0.8,0.8c-0.2,0.2-0.4,0.2-0.6,0L7.9,2.9c-0.2-0.2-0.4-0.2-0.6,0L1.5,8.7C1.4,8.9,1.1,8.9,1,8.7L0.1,7.9
+	C0,7.7,0,7.5,0.1,7.3l7.2-7.2C7.5,0,7.7,0,7.9,0.1l7.2,7.2C15.3,7.5,15.3,7.7,15.1,7.9z" />
+                        </svg>
+                        <p>Mais detalhes</p>
+                    </div>
+
+                    <div class="container-descricao-amostra">
+                        <h3>Blusa Jeans</h3>
+                        <hr>
+                        <p>R$ 103,64</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-historia">
+            <h2>Conheça nossa História!</h2>
+            <p>Venha conhecer um pouco a história da loja mais amada da internet, e saber como foi sua tragetória até agora. </p>
+
+            <a href="#">Conhecer história.</a>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Site desenvolvido por Matheus E. França & Thauane M. M. Maran. Copyright © 2020 Todos os direitos reservados.
+        </p>
+
+        <div class="container-pai-divs">
+
+            <div class="container-logoUniOr-rodape">
+                <img class="logoUniOr-rodape" src="img/svg/LogoUniOr.svg" alt="LogoUniOrRodapé">
+
+                <div class="linha-vertical"></div>
+            </div>
+
+            <div class="container-footer-g1">
+                <div class="container-redesocial">
+                    <p>Redes sociais</p>
+                    <img src="img/svg/LogoFacebook.svg" alt="FacebookUniOr">
+                    <img src="img/svg/LogoInstagram.svg" alt="InstagramUniOr">
+                </div>
+
+                <div class="container-duvida">
+                    <p>Dúvidas?</p>
+                    <a href="#">Central de atendimento</a>
+                </div>
+            </div>
+
+            <div class="container-mapa-site">
+                <p>Mapa do site</p>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Loja</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
